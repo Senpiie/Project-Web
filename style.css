@@ -1,0 +1,130 @@
+body {
+    /* background-color: rgb(74, 192, 152); */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: black;
+    font-family: "Helvetica Neue";
+    font-size: 25px;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 700px;
+    font-family: "Helvetica Neue";
+    color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+
+#About {
+    text-align: center;
+    color: rgb(0, 140, 255);
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.blue {
+    color: rgb(0, 140, 255);
+}
+
+.container button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(41, 168, 237);
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.container button:hover {
+    background-color: royalblue;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 150px;
+}
+#Skills{
+    text-align: center;
+    color: rgb(0, 140, 255);
+}
+
+#Work {
+    text-align: center;
+    color: rgb(0, 140, 255);
+}
+.Work {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.Contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 20px;
+    margin-bottom: 150px;
+}
+#Contact{
+    text-align: center;
+    color: rgb(0, 140, 255);
+}
+.Contact button{
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: rgb(41, 168, 237);
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    border-width: 200px;
+}
+.Contact button:hover{
+    background-color: royalblue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border: 20px;
+    margin-bottom: 150px;
+    background-color:rgb(30, 38, 96);
+    color: whitesmoke;
+}
+#footer{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    background-color: rgb(30, 38, 96);
+
+}
